@@ -17,6 +17,9 @@ export default {
         secondary_500: 'hsl(184, 14%, 56%)',
         secondary_700: 'hsl(186, 14%, 43%)',
         secondary_800: 'hsl(183, 100%, 15%)'
+      },
+      fontFamily: {
+        primary: 'Space Mono',
       }
     },
   },
