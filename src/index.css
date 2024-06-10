@@ -5,5 +5,5 @@
 @tailwind utilities;
 
 .title {
-  @apply uppercase
+  @apply uppercase tracking-[.4em] font-bold text-secondary_800;
 }
