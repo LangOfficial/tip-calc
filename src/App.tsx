@@ -47,11 +47,6 @@ function App() {
 
   useEffect(() => {
     const localBill = Number(bill);
-    console.log("IOHFEO")
-    console.log(localBill);
-    console.log(people);
-    console.log(selectedIndex)
-    console.log("IOHFEO")
     if (localBill && people && selectedIndex <= 4) {
       const localTip = localBill * (tipPercentages[selectedIndex] / 100);
       setTip((Math.floor(localTip / people * 100) / 100).toString());
